@@ -2,6 +2,23 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
   letter-spacing: 1pt;
+  background-color: #e6e6e6;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #AAEB08;
+  text-decoration: none;
+
 }
 
 header {
@@ -11,10 +28,17 @@ header {
   top: 0px;
   margin: 0px;
   width: 100%;
-  height: 10%;
   color: white;
   font-weight: 800;
   letter-spacing: 10pt;
+}
+
+.index-header {
+  height: 10%
+}
+
+.projects-header{
+  height: 5%;
 }
 
 .intro {
@@ -34,9 +58,50 @@ h1 {
   padding-top: 10px;
 }
 
-.frontImage {
+#slides {
   width: 40%;
+  /*height: 40px;*/
   float: right;
   margin-right: 5%;
   margin-top: 20%;
 }
+
+#button {
+  background: black;
+  font-weight: 500;
+  letter-spacing: 2pt;
+  color: white;
+  opacity: 0.8;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  background: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: .9em;
+  letter-spacing: 2pt;
+  color: white;
+  opacity: 0.8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 12px;
+  width: 450px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  border-style: none;
+}
+
+/*responsive pseudocode:
+  at smaller size, move slideshow underneath (get rid of float-right property) and change the div width to be smaller
+
+  change font size to be smaller
+
+  change header height to be slightly smaller
+
+*/
