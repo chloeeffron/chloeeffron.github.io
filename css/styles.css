@@ -77,18 +77,15 @@ h1 {
 header {
   z-index: 9;
   background-color: #2C3539;
-  padding: 5%;
+  padding: 15px;
   position: fixed;
-  top: 0px;
+  top: 0;
+  height: 100px;
   width: 100%;
   color: white;
   font-weight: 800;
   letter-spacing: 10pt;
   margin-bottom: 10px;
-}
-
-.index-header {
-  height: 100px;
 }
 
 .intro {
