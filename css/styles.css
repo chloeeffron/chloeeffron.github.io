@@ -1334,6 +1334,7 @@ RESPONSIVENESS - PROJECTS PAGE
 
   .expanded {
     width: 780px;
+    margin-left: 20x;
   }
 
   .fullsize {
