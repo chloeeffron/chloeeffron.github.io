@@ -3,11 +3,13 @@ $(document).ready(function(){
   $('#slides').slick({
     autoplay: true,
     // adaptiveHeight: true,
+    infinite: true,
     arrows: false,
-    speed: 900,
+    speed: 1000,
     fade: true,
     cssEase: 'linear'
   });
+
 
    
   $("#button").hover(buttonHover, buttonNormal);
@@ -63,7 +65,7 @@ $(document).ready(function(){
   }
 
   function projectHover5(){
-    $(".project5").fadeTo("fast", ".7");
+    $(".project5").fadeTo("fast", "1");
   }
 
   function projectNormal5(){
@@ -71,11 +73,11 @@ $(document).ready(function(){
   }
 
   function projectHover6(){
-    $(".projects").fadeTo("fast", ".7");
+    $(".project6").fadeTo("fast", "1");
   }
 
   function projectNormal6(){
-    $(".projects").fadeTo("fast", ".7");
+    $(".project6").fadeTo("fast", ".7");
   }
 
 
