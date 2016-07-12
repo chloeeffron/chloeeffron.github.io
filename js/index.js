@@ -81,7 +81,11 @@ $(document).ready(function(){
   }
 
   $(".project1").click(showProject1);
+  $(".project2").click(showProject2);
+  $(".project3").click(showProject3);
   $(".project4").click(showProject4);
+  $(".project5").click(showProject5);
+  $(".project6").click(showProject6);
 
 
   function showProject1(){
@@ -95,6 +99,30 @@ $(document).ready(function(){
     $("#instructions").css("display", "none");
   }
 
+  function showProject2(){
+    $("#project2_expanded").css("display", "block");
+    
+    $("#project1_expanded").css("display", "none");
+    $("#project3_expanded").css("display", "none");
+    $("#project4_expanded").css("display", "none");
+    $("#project5_expanded").css("display", "none");
+    $("#project6_expanded").css("display", "none");
+    $("#instructions").css("display", "none");
+
+  }
+
+  function showProject3(){
+    $("#project3_expanded").css("display", "block");
+    
+    $("#project1_expanded").css("display", "none");
+    $("#project2_expanded").css("display", "none");
+    $("#project4_expanded").css("display", "none");
+    $("#project5_expanded").css("display", "none");
+    $("#project6_expanded").css("display", "none");
+    $("#instructions").css("display", "none");
+
+  }
+
   function showProject4(){
     $("#project4_expanded").css("display", "block");
 
@@ -106,6 +134,27 @@ $(document).ready(function(){
     $("#instructions").css("display", "none");
   }
 
+  function showProject5(){
+    $("#project5_expanded").css("display", "block");
+
+    $("#project1_expanded").css("display", "none");
+    $("#project2_expanded").css("display", "none");
+    $("#project3_expanded").css("display", "none");
+    $("#project4_expanded").css("display", "none");
+    $("#project6_expanded").css("display", "none");
+    $("#instructions").css("display", "none");
+  }
+
+  function showProject6(){
+    $("#project6_expanded").css("display", "block");
+
+    $("#project1_expanded").css("display", "none");
+    $("#project2_expanded").css("display", "none");
+    $("#project3_expanded").css("display", "none");
+    $("#project4_expanded").css("display", "none");
+    $("#project5_expanded").css("display", "none");
+    $("#instructions").css("display", "none");
+  }
 
 
 });
