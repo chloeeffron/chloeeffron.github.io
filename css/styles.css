@@ -27,11 +27,11 @@ header {
   padding: 5%;
   position: fixed;
   top: 0px;
-  margin: 0px;
   width: 100%;
   color: white;
   font-weight: 800;
   letter-spacing: 10pt;
+  margin-bottom: 10px;
 }
 
 .index-header {
@@ -39,7 +39,7 @@ header {
 }
 
 .projects-header{
-  height: 5%;
+  height: 2%;
 }
 
 .intro {
@@ -97,6 +97,61 @@ button {
   margin-top: 50px;
   border-style: none;
 }
+
+#projects {
+  margin-top: 15%;
+  padding: 15px;
+  width: 500px;
+  float: right;
+}
+
+.previewTitle {
+  font-size: .7em;
+  font-weight: 800;
+  padding-top: 50%;
+  padding-bottom: 30%;
+  font-color: #2C3539;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.titleBG {
+  background-color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.projectPreview {
+  display: inline-flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  opacity: .7;
+  margin: 15px;
+
+}
+
+.project1 {
+  background: url(../images/invitationfront.png) repeat;
+  background-size: fill;
+}
+
+.project2 {
+  background: url(../images/money.png) repeat;
+  background-size: fill;
+}
+
+.project3 {
+  background: url(../images/weirdal2.png) repeat;
+  background-size: contain;
+}
+
+.project4 {
+  background: url(../images/cookies14.png) repeat;
+  background-size: contain;
+}
+
 
 /*responsive pseudocode:
   at smaller size, move slideshow underneath (get rid of float-right property) and change the div width to be smaller
