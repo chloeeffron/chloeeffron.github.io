@@ -659,11 +659,11 @@ RESPONSIVENESS - HOMEPAGE
   }
 
   .intro {
-  margin-top: 30%;
+  margin-top: 25%;
   }
 
-  .slides {
-    margin-top: 30%;
+  #slides {
+    margin-top: 40%;
   }
 } 
 
