@@ -88,7 +88,7 @@ header {
 }
 
 .index-header {
-  height: 18%
+  height: 100px
 }
 
 .intro {
@@ -145,7 +145,7 @@ button {
 }
 
 .projects-header {
-  height: 3%;
+  height: 50px;
   padding: 3%;
 }
 
@@ -334,9 +334,9 @@ RESPONSIVENESS - HOMEPAGE
   padding-top: 8%;
   }
 
-  .index-header {
+  /*.index-header {
   height: 17%
-  }
+  }*/
 
   #slides {
   width: 100%;
@@ -390,10 +390,10 @@ RESPONSIVENESS - HOMEPAGE
   padding-top: 8%;
   }
 
-  .index-header {
+  /*.index-header {
   height: 17%
   }
-
+*/
   #slides {
   width: 100%;
   margin-right: 0%;
@@ -443,9 +443,9 @@ RESPONSIVENESS - HOMEPAGE
   padding-left: 5%;
   }
 
-  .index-header {
+ /* .index-header {
   height: 17%
-  }
+  }*/
 
   #slides {
   width: 100%;
@@ -497,9 +497,9 @@ RESPONSIVENESS - HOMEPAGE
   padding-left: 5%;
   }
 
-  .index-header {
+  /*.index-header {
   height: 17%
-  }
+  }*/
 
   #slides {
   width: 100%;
@@ -550,9 +550,9 @@ RESPONSIVENESS - HOMEPAGE
   padding-left: 5%;
   }
 
-  .index-header {
+  /*.index-header {
   height: 17%
-  }
+  }*/
 
   #slides {
   width: 100%;
@@ -603,11 +603,11 @@ RESPONSIVENESS - HOMEPAGE
   margin-bottom: 10px;
   padding-left: 5%;
   }
-
+/*
   .index-header {
   height: 17%
   }
-
+*/
   #slides {
   width: 100%;
   margin-right: 0%;
