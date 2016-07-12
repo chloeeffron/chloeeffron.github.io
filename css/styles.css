@@ -661,6 +661,10 @@ RESPONSIVENESS - HOMEPAGE
   .intro {
   margin-top: 30%;
   }
+
+  .slides {
+    margin-top: 30%;
+  }
 } 
 
 /* screen sizes larger than 1100px and less than 1180px*/
