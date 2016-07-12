@@ -739,8 +739,8 @@ RESPONSIVENESS - PROJECTS PAGE
 
   .projectPreview {
     display: inline-flex;
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     border-radius: 12px;
     opacity: .78;
     margin: 15px;
