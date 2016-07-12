@@ -873,10 +873,10 @@ RESPONSIVENESS - PROJECTS PAGE
 @media only screen and (min-width: 521px) and (max-width: 650px) { 
 
 
-  body {
+  #instructions {
     background-color: green;
   }
-  
+
   .projects-header {
     height: 8%;
     padding-left: 4%;
