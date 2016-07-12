@@ -1277,7 +1277,7 @@ RESPONSIVENESS - PROJECTS PAGE
   #projectsContainer {
     position: relative;
     right: -15px;
-    top: -50px;
+    top: -100px;
   }
 
   .expanded {
