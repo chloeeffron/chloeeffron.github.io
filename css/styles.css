@@ -1266,10 +1266,10 @@ RESPONSIVENESS - PROJECTS PAGE
 
 }
 
-/* screen sizes larger than 1250px */
+/* screen sizes larger than 1400px */
 
-@media only screen and (min-width: 1251px) {
+@media only screen and (min-width: 1400px) {
 
   #projectsContainer {
-    width: 30%;
+    width: 40%;
   }
