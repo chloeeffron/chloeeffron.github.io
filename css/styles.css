@@ -955,10 +955,6 @@ RESPONSIVENESS - PROJECTS PAGE
 @media only screen and (min-width: 651px) and (max-width: 750px) { 
 
 
-  #instructions {
-    color: yellow;
-  }
-  
   .projects-header {
     height: 9%;
     padding-left: 4%;
@@ -1026,6 +1022,10 @@ RESPONSIVENESS - PROJECTS PAGE
 
 @media only screen and (min-width: 751px) and (max-width: 850px) { 
 
+  #instructions {
+    color: yellow;
+  }
+  
   .projects-header {
     height: 9%;
     padding-left: 4%;
