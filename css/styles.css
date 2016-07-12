@@ -1265,3 +1265,11 @@ RESPONSIVENESS - PROJECTS PAGE
   }
 
 }
+
+/* screen sizes larger than 1250px */
+
+@media only screen and (min-width: 1251px) {
+
+  #projectsContainer {
+    width: 30%;
+  }
