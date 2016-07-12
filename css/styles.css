@@ -1279,3 +1279,7 @@ RESPONSIVENESS - PROJECTS PAGE
     right: -15px;
     top: -50px;
   }
+
+  .expanded {
+    width: 780px;
+  }
