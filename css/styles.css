@@ -78,6 +78,7 @@ header {
   z-index: 9;
   background-color: #2C3539;
   padding: 15px;
+  padding-left: 5%;
   position: fixed;
   top: 0;
   height: 100px;
@@ -658,6 +659,8 @@ RESPONSIVENESS - HOMEPAGE
 
 /* screen sizes larger than 915px and less than 1050px*/
 @media only screen and (min-width: 916px) and (max-width: 1050px) {
+
+  
 
   .fullsize {
   width: 350px;
