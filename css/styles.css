@@ -89,7 +89,7 @@ header {
 }
 
 .intro {
-  margin-top: 18%;
+  margin-top: 170px;
   padding-left: 7%;
   padding-right: 5px;
   padding-bottom: 5%;
@@ -103,7 +103,7 @@ header {
   /*height: 40px;*/
   float: right;
   margin-right: 5%;
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 .fullsize {
@@ -687,10 +687,7 @@ RESPONSIVENESS - HOMEPAGE
     margin-top: 210px;
   }
 
-  .fullsize {
-    width: 550px;
-    margin: auto;
-  }
+  
 } 
 
 
@@ -1311,5 +1308,14 @@ RESPONSIVENESS - PROJECTS PAGE
 
   .expanded {
     width: 780px;
+  }
+
+  .fullsize {
+    width: 550px;
+    margin: auto;
+  }
+
+  #slides {
+    margin-top: 210px;
   }
 
