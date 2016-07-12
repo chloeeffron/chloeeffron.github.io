@@ -1198,10 +1198,6 @@ RESPONSIVENESS - PROJECTS PAGE
 
 @media only screen and (min-width: 1070px) and (max-width: 1150px) { 
   
-   #instructions {
-    color: red;
-  }
-
   .projectPreview {
     display: inline-flex;
     width: 180px;
