@@ -106,7 +106,7 @@ header {
   /*height: 40px;*/
   float: right;
   margin-right: 5%;
-  margin-top: 20%;
+  margin-top: 28%;
 }
 
 .fullsize {
@@ -650,10 +650,6 @@ RESPONSIVENESS - HOMEPAGE
 /* screen sizes larger than 915px and less than 1050px*/
 @media only screen and (min-width: 916px) and (max-width: 1050px) {
 
-  body {
-    background-color: red;
-  }
-
   .fullsize {
   width: 350px;
   }
@@ -663,7 +659,7 @@ RESPONSIVENESS - HOMEPAGE
   }
 
   #slides {
-    margin-top: 30%;
+    margin-top: 28%;
   }
 } 
 
@@ -1279,6 +1275,10 @@ RESPONSIVENESS - PROJECTS PAGE
 /* screen sizes larger than 1400px */
 
 @media only screen and (min-width: 1400px) {
+
+    body {
+    background-color: red;
+  }
 
   #projects {
     width: 500px;
