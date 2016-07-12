@@ -144,11 +144,23 @@ button {
   height: 10%;
 }
 
-#projectExpanded {
+.projectExpanded {
   margin-top: 15%;
   padding: 15px;
-  width: 40%;
+  width: 50%;
   float: left;
+}
+
+.expanded {
+  width: 700px;
+  padding-left: 5px;
+  margin: 7px;
+}
+
+#projectsContainer {
+  position: relative;
+  right: -140px;
+  top: -15px;
 }
 
 #projects {
@@ -187,34 +199,90 @@ button {
 }
 
 .project1 {
-  background: url(../images/invitationfront.png) repeat;
+  background: url(../images/previews/invitationfront.png) repeat;
   background-size: fill;
 }
 
 .project2 {
-  background: url(../images/money.png) repeat;
+  background: url(../images/previews/money.png) repeat;
   background-size: fill;
 }
 
 .project3 {
-  background: url(../images/weirdal2.png) repeat;
+  background: url(../images/previews/weirdal2.png) repeat;
   background-size: contain;
 }
 
 .project4 {
-  background: url(../images/cookies14.png) repeat;
+  background: url(../images/previews/cookies14.png) repeat;
   background-size: contain;
 }
 
 .project5 {
-  background: url(../images/map2.png) repeat;
+  background: url(../images/previews/map2.png) repeat;
   background-size: fill;
 }
 
 .project6 {
-  background: url(../images/slimjim_preview.jpg) repeat;
+  background: url(../images/previews/slimjim_preview.jpg) repeat;
   background-size: contain;
 }
+
+#instructions {
+  margin-top: 40px;
+  font-size: 2em;
+  line-height: 1.3em;
+  margin-left: 5%;
+}
+
+
+/* All "about" sections */
+
+.about {
+  padding-left: 5px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin-left: 5%;
+}
+
+.title {
+  margin-left: 5%;
+  padding-left: 5px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  margin-top: 3px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+/* All expanded images for previews */
+
+#project1_expanded {
+  display: none;
+}
+
+#project2_expanded {
+  display: none;
+}
+
+#project3_expanded {
+  display: none;
+}
+
+#project4_expanded {
+  display: none;
+}
+
+#project5_expanded {
+  display: none;
+}
+
+#project6_expanded {
+  display: none;
+}
+
+
 
 /* *******************
 
@@ -222,9 +290,9 @@ RESPONSIVENESS - HOMEPAGE
 
 ************************ */
 
-/* screen sizes smaller than 500px */
+/* screen sizes smaller than 480px */
 
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 480px) {
   header {
   font-size: 1.2em;
   font-weight: 800;
@@ -277,8 +345,64 @@ RESPONSIVENESS - HOMEPAGE
 
 } 
 
-/* screen sizes larger than 480px and less then 600px */
-@media only screen and (min-width: 500px) and (max-width: 600px) {
+/* screen sizes larger than 480px and less than 500 */
+
+@media only screen and (min-width: 480px) and (max-width: 500px) {
+
+  header {
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-bottom: 10px;
+  padding-left: 5%;
+  padding-top: 8%;
+  }
+
+  .index-header {
+  height: 17%
+  }
+
+  #slides {
+  width: 100%;
+  margin-right: 0%;
+  margin-left: 0%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  }
+
+  .fullsize {
+  width: 400px;
+  margin: auto;
+  }
+
+  .intro {
+  font-size: .9em;
+  margin-top: 30%;
+  margin-left: 3.5%;
+  margin-right: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5%;
+  width: 90%;
+  }
+
+  button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  margin-left: 15%;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  border-style: none;
+  }
+
+} 
+
+/* screen sizes larger than 500px and less then 600px */
+@media only screen and (min-width: 501px) and (max-width: 600px) {
   header {
   font-size: 1.2em;
   font-weight: 800;

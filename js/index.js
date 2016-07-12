@@ -37,7 +37,7 @@ $(document).ready(function(){
   }
 
   function projectNormal1(){
-    $(".project1").fadeTo("fast", ".7");
+    $(".project1").fadeTo("fast", ".78");
   }
 
   function projectHover2() {
@@ -45,7 +45,7 @@ $(document).ready(function(){
   }
 
   function projectNormal2(){
-    $(".project2").fadeTo("fast", ".7");
+    $(".project2").fadeTo("fast", ".78");
   }
 
   function projectHover3() {
@@ -53,7 +53,7 @@ $(document).ready(function(){
   }
 
   function projectNormal3(){
-    $(".project3").fadeTo("fast", ".7");
+    $(".project3").fadeTo("fast", ".78");
   }
 
   function projectHover4() {
@@ -61,7 +61,7 @@ $(document).ready(function(){
   }
 
   function projectNormal4(){
-    $(".project4").fadeTo("fast", ".7");
+    $(".project4").fadeTo("fast", ".78");
   }
 
   function projectHover5(){
@@ -69,7 +69,7 @@ $(document).ready(function(){
   }
 
   function projectNormal5(){
-    $(".project5").fadeTo("fast", ".7");
+    $(".project5").fadeTo("fast", ".78");
   }
 
   function projectHover6(){
@@ -77,7 +77,33 @@ $(document).ready(function(){
   }
 
   function projectNormal6(){
-    $(".project6").fadeTo("fast", ".7");
+    $(".project6").fadeTo("fast", ".78");
+  }
+
+  $(".project1").click(showProject1);
+  $(".project4").click(showProject4);
+
+
+  function showProject1(){
+    $("#project1_expanded").css("display", "block");
+
+    $("#project2_expanded").css("display", "none");
+    $("#project3_expanded").css("display", "none");
+    $("#project4_expanded").css("display", "none");
+    $("#project5_expanded").css("display", "none");
+    $("#project6_expanded").css("display", "none");
+    $("#instructions").css("display", "none");
+  }
+
+  function showProject4(){
+    $("#project4_expanded").css("display", "block");
+
+    $("#project1_expanded").css("display", "none");
+    $("#project2_expanded").css("display", "none");
+    $("#project3_expanded").css("display", "none");
+    $("#project5_expanded").css("display", "none");
+    $("#project6_expanded").css("display", "none");
+    $("#instructions").css("display", "none");
   }
 
 
