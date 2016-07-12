@@ -653,13 +653,13 @@ RESPONSIVENESS - HOMEPAGE
   body {
     background-color: red;
   }
-  
+
   .fullsize {
   width: 350px;
   }
 
   .intro {
-  margin-top: 18%;
+  margin-top: 30%;
   }
 } 
 
