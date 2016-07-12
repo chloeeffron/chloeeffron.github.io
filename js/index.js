@@ -97,6 +97,8 @@ $(document).ready(function(){
     $("#project5_expanded").css("display", "none");
     $("#project6_expanded").css("display", "none");
     $("#instructions").css("display", "none");
+
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
   }
 
   function showProject2(){
@@ -108,6 +110,8 @@ $(document).ready(function(){
     $("#project5_expanded").css("display", "none");
     $("#project6_expanded").css("display", "none");
     $("#instructions").css("display", "none");
+
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
 
   }
 
@@ -121,6 +125,8 @@ $(document).ready(function(){
     $("#project6_expanded").css("display", "none");
     $("#instructions").css("display", "none");
 
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+
   }
 
   function showProject4(){
@@ -132,6 +138,9 @@ $(document).ready(function(){
     $("#project5_expanded").css("display", "none");
     $("#project6_expanded").css("display", "none");
     $("#instructions").css("display", "none");
+
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+
   }
 
   function showProject5(){
@@ -143,6 +152,9 @@ $(document).ready(function(){
     $("#project4_expanded").css("display", "none");
     $("#project6_expanded").css("display", "none");
     $("#instructions").css("display", "none");
+
+     $('html, body').animate({ scrollTop: 0 }, 'fast');
+
   }
 
   function showProject6(){
@@ -154,6 +166,9 @@ $(document).ready(function(){
     $("#project4_expanded").css("display", "none");
     $("#project5_expanded").css("display", "none");
     $("#instructions").css("display", "none");
+  
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+
   }
 
 

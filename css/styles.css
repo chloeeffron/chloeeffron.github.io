@@ -140,6 +140,10 @@ button {
 
 /* PROJECTS PAGE STYLES */
 
+.page2 {
+  background-color: white;
+}
+
 .projects-header {
   height: 3%;
   padding: 3%;
@@ -187,6 +191,9 @@ button {
   background-color: white;
   padding-top: 3%;
   padding-bottom: 3%;
+  padding-left: 2px;
+  padding-right: 2px;
+  opacity: .85;
 }
 
 .projectPreview {
@@ -206,7 +213,7 @@ button {
 
 .project2 {
   background: url(../images/previews/money.png) repeat;
-  background-size: fill;
+  background-size: contain;
 }
 
 .project3 {
@@ -898,7 +905,7 @@ RESPONSIVENESS - PROJECTS PAGE
   }
 
   #projects {
-    margin-top: 15%;
+    margin-top: 7%;
     margin-left: 4%;
     padding: 10px;
     width: 100%;
@@ -1191,6 +1198,10 @@ RESPONSIVENESS - PROJECTS PAGE
 
 @media only screen and (min-width: 1070px) and (max-width: 1150px) { 
   
+   #instructions {
+    color: red;
+  }
+
   .projectPreview {
     display: inline-flex;
     width: 180px;
@@ -1202,13 +1213,8 @@ RESPONSIVENESS - PROJECTS PAGE
 
   #projectsContainer {
     position: relative;
-    right: -130px;
+    right: -120px;
     top: -70px;
-  }
-
-  .projectPreview {
-    width: 170px;
-    height: 180px;
   }
 
   .expanded {
