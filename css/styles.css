@@ -549,7 +549,7 @@ RESPONSIVENESS - HOMEPAGE
   body {
     background-color: blue;
   }
-  
+
   header {
   font-size: 1.1em;
   font-weight: 800;
@@ -577,7 +577,7 @@ RESPONSIVENESS - HOMEPAGE
 
   .intro {
   font-size: .9em;
-  margin-top: 30%;
+  margin-top: 120px;
   margin-left: 5%;
   margin-right: 8%;
   padding-left: 10px;
@@ -632,7 +632,7 @@ RESPONSIVENESS - HOMEPAGE
 
   .intro {
   font-size: .9em;
-  margin-top: 30%;
+  margin-top: 200px;
   margin-left: 5%;
   margin-right: 8%;
   padding-left: 10px;
@@ -664,11 +664,11 @@ RESPONSIVENESS - HOMEPAGE
   }
 
   .intro {
-  margin-top: 17%;
+  margin-top: 250px;
   }
 
   #slides {
-    margin-top: 28%;
+    margin-top: 300px;
   }
 } 
 
@@ -680,11 +680,16 @@ RESPONSIVENESS - HOMEPAGE
   }
 
   .intro {
-  margin-top: 12%;
+  margin-top: 300px;
   }
 
   #slides {
-    margin-top: 15%;
+    margin-top: 300px;
+  }
+
+  .fullsize {
+    width: 550px;
+    margin: auto;
   }
 } 
 
@@ -1307,3 +1312,4 @@ RESPONSIVENESS - PROJECTS PAGE
   .expanded {
     width: 780px;
   }
+
