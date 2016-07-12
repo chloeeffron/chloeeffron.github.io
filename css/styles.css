@@ -1271,5 +1271,5 @@ RESPONSIVENESS - PROJECTS PAGE
 @media only screen and (min-width: 1400px) {
 
   #projectsContainer {
-    width: 40%;
+    width: 500px;
   }
