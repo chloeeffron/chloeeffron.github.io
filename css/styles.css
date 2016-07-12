@@ -328,7 +328,8 @@ RESPONSIVENESS - HOMEPAGE
   font-weight: 800;
   margin-bottom: 10px;
   padding-left: 15px;
-  padding-top: 8px;
+  padding-top: 15px;
+  height: 50px;
   }
 
   /*.index-header {
@@ -385,6 +386,7 @@ RESPONSIVENESS - HOMEPAGE
   margin-bottom: 10px;
   padding-left: 17px;
   padding-top: 17px;
+  height: 60px;
   }
 
   /*.index-header {
@@ -438,6 +440,7 @@ RESPONSIVENESS - HOMEPAGE
   font-weight: 800;
   margin-bottom: 10px;
   padding-left: 5%;
+  height: 70px;
   }
 
  /* .index-header {
@@ -492,6 +495,7 @@ RESPONSIVENESS - HOMEPAGE
   font-weight: 800;
   margin-bottom: 10px;
   padding-left: 5%;
+  height: 80px;
   }
 
   /*.index-header {
@@ -545,6 +549,7 @@ RESPONSIVENESS - HOMEPAGE
   font-weight: 800;
   margin-bottom: 10px;
   padding-left: 5%;
+  height: 90px;
   }
 
   /*.index-header {
@@ -599,6 +604,7 @@ RESPONSIVENESS - HOMEPAGE
   font-weight: 800;
   margin-bottom: 10px;
   padding-left: 5%;
+  height: 100px;
   }
 /*
   .index-header {
