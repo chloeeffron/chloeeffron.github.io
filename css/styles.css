@@ -142,11 +142,6 @@ button {
   background-color: white;
 }
 
-/*.projects-header {
-  height: 50px;
-  padding: 3%;
-}*/
-
 .projectExpanded {
   margin-top: 10%;
   padding: 15px;
@@ -278,7 +273,7 @@ button {
 }
 
 .about a:hover {
-  color: #AAEB08;;
+  color:  #AAEB08;
   text-decoration: none;
   font-weight: 600;
 
@@ -333,10 +328,6 @@ RESPONSIVENESS - HOMEPAGE
   height: 55px;
   }
 
-  /*.index-header {
-  height: 17%
-  }*/
-
   #slides {
   width: 100%;
   margin-right: 0%;
@@ -390,10 +381,6 @@ RESPONSIVENESS - HOMEPAGE
   height: 55px;
   }
 
-  /*.index-header {
-  height: 17%
-  }
-*/
   #slides {
   width: 100%;
   margin-right: 0%;
@@ -446,9 +433,6 @@ RESPONSIVENESS - HOMEPAGE
   height: 70px;
   }
 
- /* .index-header {
-  height: 17%
-  }*/
 
   #slides {
   width: 100%;
@@ -501,9 +485,6 @@ RESPONSIVENESS - HOMEPAGE
   height: 80px;
   }
 
-  /*.index-header {
-  height: 17%
-  }*/
 
   #slides {
   width: 100%;
@@ -555,9 +536,6 @@ RESPONSIVENESS - HOMEPAGE
   height: 90px;
   }
 
-  /*.index-header {
-  height: 17%
-  }*/
 
   #slides {
   width: 100%;
@@ -609,11 +587,7 @@ RESPONSIVENESS - HOMEPAGE
   padding-left: 5%;
   height: 100px;
   }
-/*
-  .index-header {
-  height: 17%
-  }
-*/
+
   #slides {
   width: 100%;
   margin-right: 0%;
